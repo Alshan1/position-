@@ -10,7 +10,7 @@ body{
 }
 
 .maindiv{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 100%;
     color: white ;
 }
@@ -42,7 +42,6 @@ sup{
 .griddiv{
  
     padding: 10px;
-    margin-left: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #808080;
@@ -63,13 +62,12 @@ sup{
     position: fixed;
     bottom: 10px;
     right: 10px;
-    height: 126px;
-    width: 126px;
+    height: 80px;
+    width: 80px;
     background: darkgray;
     display: flex;
-    align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 85px;
+    font-size: 61px;
 }
   
