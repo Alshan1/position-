@@ -80,4 +80,15 @@ svg{
     justify-content: center;
     align-items: center;
 }
-  
+  .rounded{
+    position: absolute;
+    top: -7px;
+    right: -15px;
+    background: red;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: inherit;
+    line-height: 1;
+}
