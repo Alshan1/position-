@@ -69,8 +69,15 @@ sup{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 61px;
+    font-size: 60px;
     /* display: inline-block; */
 
+}
+svg{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
