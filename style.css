@@ -63,11 +63,14 @@ sup{
     bottom: 10px;
     right: 10px;
     height: 80px;
-    width: 80px;
+     width: 80px; 
     background: darkgray;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 50%;
     font-size: 61px;
+    /* display: inline-block; */
+
 }
   
