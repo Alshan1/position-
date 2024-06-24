@@ -1,0 +1,75 @@
+*{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.maindiv{
+    background-color: black;
+    height: 100%;
+    color: white ;
+}
+.contactdiv{
+    background-color: #222222;
+    height: 38px;
+    text-align: center;
+    padding: 10px;
+}
+span{
+    margin-left: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.menudiv{
+    height: 43px;
+    background-color: #333333;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+sup{
+    background-color: red;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.griddiv{
+ 
+    padding: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #808080;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+.griditem {
+    background-color: rgb(255 255 255);
+    font-size: 30px;
+    text-align: center;
+    height: 70px;
+    color: black;
+    padding: 10px;
+}
+  .earthdiv{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 126px;
+    width: 126px;
+    background: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 85px;
+}
+  
